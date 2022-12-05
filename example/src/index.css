@@ -26,6 +26,7 @@ p{
 	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
+	cursor: pointer;
 }
 
 .TbButtonsSmall{
@@ -74,7 +75,8 @@ button{
 /*STYLE BAR*/
 
 .SBColorOpened{
-	background-color: #eee
+	background-color: #eee;
+	cursor: pointer;
 }
 
 .SBColorClosed{
@@ -82,12 +84,14 @@ button{
 }
 
 .style-bar{
-	background-color: #eee
+	background-color: #eee;
+	cursor: pointer;
 }
 
 .SBBlackoutTitle{
 	background-color: none;
 	color:#fff;
+	cursor: pointer;
 }
 
 /*style for label button sizing*/
@@ -96,12 +100,14 @@ button{
 	display:flex;
 	flex-direction: row;
 	margin:3px;
+	cursor: pointer;
 }
 
 
 .subtractBtn, .additionBtn {
 	margin-left: 8px;
 	margin-right: 8px;
+	cursor: pointer;
 }
 
 
@@ -113,6 +119,7 @@ button{
 	animation-name: circleBlinking;
    	animation-duration: 4s;
    	animation-iteration-count: infinite;
+	cursor: pointer;
 }
 
 /*reset button*/
